@@ -8,8 +8,7 @@ class Config:
     BOT_TOKEN = os.getenv("BOT_TOKEN")
     ADMIN_IDS = [int(id.strip()) for id in os.getenv("ADMIN_IDS", "").split(",") if id.strip()]
     
-    # Google Sheets
-    GOOGLE_SHEETS_CREDENTIALS = os.getenv("GOOGLE_SHEETS_CREDENTIALS", "credentials.json")
+    # Google Sheets - ТОЛЬКО URL, без пути к файлу!
     GOOGLE_SHEETS_URL = os.getenv("GOOGLE_SHEETS_URL")
     
     # Информация о салоне
