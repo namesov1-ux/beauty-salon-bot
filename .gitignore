@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Google credentials
+credentials.json
+*.json
+!credentials.json.example
+!requirements.txt
+!Procfile
+!runtime.txt
+!.env.example
+!README.md
